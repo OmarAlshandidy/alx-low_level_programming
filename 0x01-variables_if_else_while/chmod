@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "input name file chmod"
+read var
+
+chmod u+x "${var}"
