@@ -2,7 +2,6 @@
 
 /**
  * main - Entry point
- *
  * Desciption: printf function
  *
  * Return: always 0
