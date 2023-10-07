@@ -1,15 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- *
- * Description: A cProg. prints puts
- *
- * Return: Always 0 (sucsses)
- *
- */
-
-
 int main(void)
 {
 
