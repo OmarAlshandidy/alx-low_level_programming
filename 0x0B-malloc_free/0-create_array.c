@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 
+
 /**
  * create_array - a program that creates a dynamic memory allocation
  * filled with a specific character c .
