@@ -1,15 +1,13 @@
-#include <stdio.h>
+include <unistd.h>
 
 /**
- * main - program that prints its name.
- * @argc : number of arguments.
- * @argv : array that contains the arguments.
- * Return: 0.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-int main(int argc, char *argv[])
+int _putchar(char c)
 {
-printf("%i\n", argv[0]);
-(void)argc;
-return (0);
+	return (write(1, &c, 1));
 }
